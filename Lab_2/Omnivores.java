@@ -12,16 +12,19 @@ public class Omnivores extends Animal {
 	}
 
 	@Override
-	public String getFoodCount() {
-
-		double foodCount = 1 + Math.random() * 5;
-
-		if (gender.equals("male") || gender.equals("Male")) {
-			foodCount = foodCount * 5.5;
-		}
-
-		return "Omnivores need " + Math.floor(foodCount) + " kg eating";
+	public double getFoodCount() {
+		final double maxFoodCountOmnivores = 12;
+		return maxFoodCountOmnivores;
 	}
+
+	/* Random
+	double foodCount = 1 + Math.random() * 3;
+	if(gender.equals("male")||gender.equals("Male"))
+
+	{
+		foodCount = foodCount * 5.5;
+	}
+		return Math.floor(foodCount); */
 
 	@Override
 	public String getFoodType() {

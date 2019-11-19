@@ -11,15 +11,9 @@ public class Herbivores extends Animal {
 	}
 
 	@Override
-	public String getFoodCount() {
-
-		double foodCount = 1 + Math.random() * 3;
-
-		if (gender.equals("male") || gender.equals("Male")) {
-			foodCount = foodCount * 5.5;
-		}
-
-		return "Herbivores need " + Math.floor(foodCount) + " kg eating";
+	public double getFoodCount() {
+		final double maxFoodCountOmnivores = 2;
+		return maxFoodCountOmnivores;
 	}
 
 	@Override
