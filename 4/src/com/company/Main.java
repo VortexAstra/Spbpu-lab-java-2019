@@ -38,7 +38,7 @@ public class Main {
 			} else throw new RuntimeException("ONLY ADD OE DELETE");
 
 
-			/** не работает */
+			/** Add on File */
 			System.out.println("Select a file to write text");
 			String fileName = new Scanner(System.in).nextLine();
 
