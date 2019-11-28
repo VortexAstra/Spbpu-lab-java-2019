@@ -1,9 +1,6 @@
 package com.company;
 
-import sun.tools.java.SyntaxError;
-
 import java.io.*;
-
 import java.util.Scanner;
 
 public class Main {
@@ -50,7 +47,7 @@ public class Main {
 
 
 		} catch
-		(IOException | Error e) {
+		(IOException | RuntimeException e) {
 			e.printStackTrace();
 		}
 	}
