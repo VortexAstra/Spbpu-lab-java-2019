@@ -1,6 +1,5 @@
 package com.company;
 
-
 import java.util.Arrays;
 
 public class LibraryManager {
@@ -14,7 +13,7 @@ public class LibraryManager {
 		books = new Book[size];
 	}
 
-	void addBook(final Book book) {
+	private void addBook(final Book book) {
 		for (int i = 0; i < books.length; i++) {
 			if (books[i] == null) {
 				books[i] = book;
@@ -23,13 +22,11 @@ public class LibraryManager {
 		}
 	}
 
-	void deleteBook(final int index) {
-		boolean result = books[index] != null;
+	private void deleteBook(final int index) {
 		books[index] = null;
-
 	}
 
-	void getBook(int index) {
+	void getBook(final int index) {
 		if (index < 0) {
 			throw new IllegalArgumentException("Index can't be negative");
 		}
@@ -37,16 +34,46 @@ public class LibraryManager {
 		System.out.print(books[index]);
 	}
 
+	//Find on Lib
+	private void findByTitle(String title) {
+		for (Book book : books) {
+			if (book.title.equals(title)) {
+				System.out.println(book);
+			}
+			return;
+		}
+	}
+
+	private void findByAuthor(String author) {
+		for (Book book : books) {
+			if (book.author.equals(author)) {
+				System.out.println(book);
+			}
+			return;
+		}
+	}
+
+	private void findByYear(int Year) {
+		for (Book book : books) {
+			if (book.publishYear == Year) {
+				System.out.println(book);
+			}
+			return;
+		}
+	}
+
+
 
 	void testLibrary() {
 		Book b1 = new Book("Name1", "Author1", 2001);
 		Book b2 = new Book("Name2", "Author2", 2002);
-		Book b3 = new Book("Name3", "Author3", 2003);
-		Book b4 = new Book("Name4", "Author4", 2004);
+
 		addBook(b1);
 		addBook(b2);
-		addBook(b3);
-		addBook(b4);
+
+		findByYear(2001);
+		findByAuthor("Author1");
+		findByTitle("Name1");
 
 		System.out.println("After adding");
 		System.out.println(this);

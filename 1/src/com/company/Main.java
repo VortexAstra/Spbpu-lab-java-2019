@@ -11,7 +11,7 @@ public class Main {
 			LineFragments fragments = new LineFragments();
 			fragments.task2();
 
-			LibraryManager lb = new LibraryManager(10);
+			LibraryManager lb = new LibraryManager(5);
 			// Test Task 3 //
 			lb.testLibrary();
 

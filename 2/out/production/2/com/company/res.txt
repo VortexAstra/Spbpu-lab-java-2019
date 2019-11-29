@@ -1,0 +1,9 @@
+1 Giraffe 210
+2 Manky 10
+3 Mufasa 40
+5 Chipmunks 20
+4 Hedgehogs 20
+6 Pumba 20
+8 Giraffe 50
+9 Timon 50
+7 Yak 50

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="946ab440-2447-4e8d-8f5e-37f0d3dd9d4c" name="Default Changelist" comment="" />
+    <list default="true" id="f8181f08-2aa2-41fb-b899-41230e10641e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +11,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="218" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -18,28 +21,26 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1UA2M6lteFlq81YkidGc1oTe2Lm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1RHw8ktQWIe37xVuXVHMNSemQkn" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,7 +57,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="4" />
+      <module name="1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -79,7 +80,7 @@
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
-      <setting name="replType" value="SOCKET" />
+      <setting name="replType" value="NREPL" />
       <setting name="configType" value="SPECIFY" />
       <setting name="fixLineNumbers" value="false" />
       <module name="" />
@@ -96,32 +97,60 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="946ab440-2447-4e8d-8f5e-37f0d3dd9d4c" name="Default Changelist" comment="" />
-      <created>1574785027771</created>
+      <changelist id="f8181f08-2aa2-41fb-b899-41230e10641e" name="Default Changelist" comment="" />
+      <created>1569337172068</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574785027771</updated>
-      <workItem from="1574785029352" duration="11905000" />
-      <workItem from="1574841004311" duration="1787000" />
-      <workItem from="1574870292181" duration="222000" />
-      <workItem from="1574924190202" duration="385000" />
+      <updated>1569337172068</updated>
+      <workItem from="1569337173867" duration="2100000" />
+      <workItem from="1569398633252" duration="213000" />
+      <workItem from="1569575050647" duration="2378000" />
+      <workItem from="1569705521887" duration="1030000" />
+      <workItem from="1569708718171" duration="378000" />
+      <workItem from="1569753785365" duration="9732000" />
+      <workItem from="1569834272029" duration="286000" />
+      <workItem from="1570001455640" duration="491000" />
+      <workItem from="1570193397524" duration="183000" />
+      <workItem from="1570194284238" duration="115000" />
+      <workItem from="1571348585550" duration="219000" />
+      <workItem from="1571552992311" duration="4116000" />
+      <workItem from="1573742809459" duration="1118000" />
+      <workItem from="1573744556157" duration="85000" />
+      <workItem from="1573748351382" duration="835000" />
+      <workItem from="1573751593078" duration="1114000" />
+      <workItem from="1573753018206" duration="7199000" />
+      <workItem from="1573804163837" duration="2471000" />
+      <workItem from="1573830290602" duration="429000" />
+      <workItem from="1573840652972" duration="119000" />
+      <workItem from="1573888262291" duration="364000" />
+      <workItem from="1573888742280" duration="219000" />
+      <workItem from="1574924620471" duration="9000" />
+      <workItem from="1575027952750" duration="10000" />
+      <workItem from="1575028025827" duration="19000" />
+      <workItem from="1575031015331" duration="4679000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/LibraryManager.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/1$Main.ic" NAME="Main Coverage Results" MODIFIED="1569754356565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

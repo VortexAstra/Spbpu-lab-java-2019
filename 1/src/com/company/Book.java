@@ -1,13 +1,9 @@
 package com.company;
 
 class Book {
-	private final String author;
-	private final String title;
-	private final int publishYear;
-
-	Book() {
-		this("Дэн Браун", "Точка обмана", 2001);
-	}
+	 final String author;
+	 final String title;
+	 final int publishYear;
 
 	Book(String bookName, String bookAuthor, int year) {
 		author = bookAuthor;

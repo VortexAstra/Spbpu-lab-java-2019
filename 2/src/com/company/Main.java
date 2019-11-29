@@ -69,14 +69,13 @@ public class Main {
 				System.out.println(animalsZoo.get(i).id);
 			}
 
-			/** Task D Write*/
+			/** Task D Write */
 			File file = new File("src/com/company/res.txt");
 
 			if (!file.exists())
 				file.createNewFile();
 
 			PrintWriter printWriter = new PrintWriter(file);
-
 
 			for (Animal animal : animalsZoo) {
 				printWriter.print(animal.id + " " + animal.name + " " +
